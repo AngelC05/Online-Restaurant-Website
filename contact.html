@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact | TasteBuds Restaurant</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Contact Us</h1>
+    <p>We'd love to hear from you!</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="menu.html">Menu</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <div class="content">
+    <div class="section contact">
+      <form action="submit_order.php" method="POST">
+       <input type="text" name="name" placeholder="Your Name" required>
+       <input type="text" name="phone" placeholder="Your Phone Number" required>
+       <input type="text" name="dish" placeholder="Dish Name" required>
+       <input type="number" name="quantity" placeholder="Quantity" required>
+       <button type="submit">Place Order</button>
+      </form>
+
+    </div>
+
+    <h2>Location</h2>
+    <div class="section">
+      <p>Find us in Chennai!</p>
+      <iframe src="https://www.google.com/maps?q=Chennai+Restaurant&output=embed"></iframe>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 TasteBuds Restaurant | Designed by Angel</p>
+  </footer>
+
+</body>
+</html>
